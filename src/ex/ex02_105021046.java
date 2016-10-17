@@ -11,21 +11,24 @@ public class ex02_105021046 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner scn=new Scanner(System.in);
-		int n=scn.nextInt();
-		int m=scn.nextInt();
+		Scanner scn = new Scanner(System.in);
 		char a = 'Y';
-		while(a=='Y'||a=='y'){
-		for(int i=1;i<=n;i++){
-			for(int j=1;j<=m;j++){
-				System.out.print(i*j+"\t");
-				}System.out.println();
+		while (a == 'Y' || a == 'y') {
+			System.out.println("請輸入n和m");
+			int n = scn.nextInt();
+			int m = scn.nextInt();
+			
+			for (int i = 1; i <= n; i++) {
+				for (int j = 1; j <= m; j++) {
+					System.out.print(i * j + "\t");
+				}
+				System.out.println();
 			}
-		 a = scn.next().charAt(0);
-		 if(a=='n'||a=='N'){
-System.out.println("掰掰");
-			 
-		 }
+			a = scn.next().charAt(0);
+			if (a == 'n' || a == 'N') {
+				System.out.println("掰掰");
+
+			}
 		}
 
 	}

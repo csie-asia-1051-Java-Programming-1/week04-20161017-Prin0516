@@ -5,6 +5,7 @@
     @@@  
     @@  
     @
+    
  * Date: 2016/10/17
  * Author: 105021046 賴沛錞
  */
@@ -14,6 +15,7 @@ public class ex04_105021046 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scn=new Scanner(System.in);
+		System.out.println("請輸入");
 		int n=scn.nextInt();
 		char a=scn.next().charAt(0);
 		for(int i=0;i<n;i++){
